@@ -4,7 +4,7 @@
 
 ## Hosted Version of the Project:
 
-[mlcToDoPrjName](https://brightchamps-fruits-matching-game-project.vercel.app/)
+[brightchamps fruits matching game project](https://brightchamps-fruits-matching-game-project.vercel.app/)
 
 ## Objectives
 
