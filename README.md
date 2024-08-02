@@ -8,7 +8,7 @@
 
 ## Objectives
 
-task is to create an engaging matching game using React.js with TypeScript,
+task was to create an engaging matching game using React.js with TypeScript,
 following the design provided in Figma. In this game, players will test their memory
 and skills by matching items within a defined number of tries, with a set limit. Upon
 successful matches, players will collect a banana, which will be prominently
