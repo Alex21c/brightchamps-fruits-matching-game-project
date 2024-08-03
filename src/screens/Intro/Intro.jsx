@@ -1,3 +1,4 @@
+import "./Intro.css";
 import backgroundScreen from "../../Assests/Images/backgroundScreen.png";
 import monkeyHappy from "../../Assests/Images/monkeyHappy.svg";
 import greenMountainShadow from "../../Assests/Images/greenMountainShadow.svg";
@@ -51,19 +52,22 @@ export default function Intro() {
   return (
     <div className="text-stone-200 text-[1rem] flex justify-center pt-[1.5rem]">
       <section
+        id="sectionStage"
         className="w-[80rem] h-[52rem] bg-cover rounded-xl overflow-hidden relative"
         style={{ backgroundImage: `url(${backgroundScreen})` }}
       >
         <img
           src={monkeyHappy}
+          id="monkeyHappy"
           className="w-[30rem] top-[19rem] left-[30rem] relative z-[1]"
         />
         <img
           src={greenMountainShadow}
+          id="greenMountainShadow"
           className="w-[37rem] relative top-[5.5rem] left-[15rem] z-[0]"
         />
 
-        <div className="relative cursor-pointer ">
+        <div className="relative cursor-pointer " id="wrapperGoldenBtn">
           <img
             src={goldenButton}
             className="w-[16rem] top-[-.1rem] left-[60rem] relative "
@@ -76,7 +80,10 @@ export default function Intro() {
           </button>
         </div>
 
-        <div className="absolute top-[8rem] left-[45rem]">
+        <div
+          className="absolute top-[8rem] left-[45rem]"
+          id="wrapperIntroCloud"
+        >
           <img src={introCloud} className="w-[25rem] " />
           <span className={screenData[stateScreenNo].cloudCSS}>
             {screenData[stateScreenNo].cloudMessage}
@@ -97,10 +104,12 @@ export default function Intro() {
 
         <img
           src={gearIcon}
+          id="gearIcon"
           className="absolute bottom-[4rem] left-[5rem] w-[6rem]"
         />
         <img
           src={starIcon}
+          id="starIcon"
           className="absolute bottom-[4rem] left-[18rem] w-[6rem]"
         />
 

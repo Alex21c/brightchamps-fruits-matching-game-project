@@ -1,0 +1,135 @@
+@media screen and (max-width: 1281px) {
+  section#sectionStage {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+  img#greenMountainShadow {
+    top: 5rem;
+  }
+  img#monkeyHappy {
+    top: 18rem;
+  }
+}
+
+@media screen and (max-width: 1221px) {
+  img#greenMountainShadow {
+    top: 4rem;
+    left: 12rem;
+  }
+  img#monkeyHappy {
+    top: 16rem;
+    left: 19rem;
+  }
+  div#wrapperGoldenBtn {
+    top: -2rem;
+    right: 3rem;
+  }
+  div#wrapperIntroCloud {
+    top: 5rem;
+  }
+  img#gearIcon {
+    left: 2rem;
+  }
+  img#starIcon {
+    left: 10rem;
+  }
+}
+
+@media screen and (max-width: 1169px) {
+  img#greenMountainShadow {
+    top: 6rem;
+  }
+  img#monkeyHappy {
+    top: 19rem;
+    width: 25rem;
+  }
+  div#wrapperGoldenBtn {
+    top: 1rem;
+    right: 9rem;
+  }
+  div#wrapperIntroCloud {
+    right: 9rem;
+    min-width: 25rem;
+  }
+  div#wrapperIntroCloud > span {
+    min-width: 25rem;
+  }
+}
+
+@media screen and (max-width: 1107px) {
+  div#wrapperIntroCloud {
+    left: 35rem;
+  }
+  img#monkeyHappy {
+    top: 23rem;
+    width: 20rem;
+  }
+  img#greenMountainShadow {
+    top: 9rem;
+    left: 8rem;
+  }
+  div#wrapperGoldenBtn {
+    top: 4rem;
+    right: 15rem;
+  }
+}
+
+@media screen and (max-width: 969px) {
+  div#wrapperGoldenBtn {
+    right: 25rem;
+  }
+  div#wrapperIntroCloud {
+    left: 25rem;
+  }
+  img#monkeyHappy {
+    left: 15rem;
+  }
+  img#greenMountainShadow {
+    left: 7rem;
+  }
+}
+
+@media screen and (max-width: 811px) {
+  div#wrapperGoldenBtn {
+    right: 35rem;
+  }
+  img#monkeyHappy {
+    left: 5rem;
+  }
+  div#wrapperIntroCloud {
+    left: 15rem;
+  }
+  img#greenMountainShadow {
+    left: -2rem;
+  }
+  img#gearIcon {
+    bottom: 1rem;
+  }
+  img#starIcon {
+    bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  div#wrapperGoldenBtn {
+    right: 45rem;
+    top: 11rem;
+  }
+  img#starIcon {
+    left: 1rem;
+    bottom: 10rem;
+  }
+  img#gearIcon {
+    left: 1rem;
+  }
+  div#wrapperIntroCloud {
+    left: 5rem;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  img#greenMountainShadow {
+    min-width: 20rem;
+  }
+}
